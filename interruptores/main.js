@@ -1,7 +1,13 @@
+// 30 de abril de 2019, Mateus Israel
+
 // Elementos
 var int1 = document.querySelector("#int1");
 var int2 = document.querySelector("#int2");
 var tela = document.querySelector("#tela");
+
+int1.innerHTML = "<p>Clique-me</p>"
+int2.innerHTML = "<p>Clique-me</p>"
+
 
 // Variáveis
 var cond1 = false;
@@ -12,8 +18,12 @@ var cond2 = false;
 int1.addEventListener('click', () => {
     if (cond1 == false) {
         cond1 = true;
+        int1.innerHTML = "<p>On</p>"
+
     } else if (cond1 == true) {
         cond1 = false;
+        int1.innerHTML = "<p>Off</p>"
+
     }
 
     checarAllEst();
@@ -22,8 +32,12 @@ int1.addEventListener('click', () => {
 int2.addEventListener('click', () => {
     if (cond2 == false) {
         cond2 = true;
+        int2.innerHTML = "<p>On</p>"
+
     } else if (cond2 == true) {
         cond2 = false;
+        int2.innerHTML = "<p>Off</p>"
+
     }
 
     checarAllEst();

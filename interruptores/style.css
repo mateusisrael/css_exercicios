@@ -1,23 +1,50 @@
-#tela{
-    width: 300px;
-    height: 300px;
-    background-color: #19192F;
+/* 30 de abril de 2019, Mateus Israel */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
-#layout{
-    width: 300px;
-    height: 300px;
-    
+body{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
+}
+
+#tela{
+    width: 90%;
+    height: 90vh;
+    background-color: #19192F;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
 }
 
 .interruptores{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     background-color: #fff;
     margin: 2px;
     cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-size: 2em;
+    color: #808080;
+}
+
+footer p{
+    font-size: 1em;
+    color: #464646;
+    margin-top: 10%;
 }
