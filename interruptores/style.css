@@ -1,0 +1,23 @@
+#tela{
+    width: 300px;
+    height: 300px;
+    background-color: #19192F;
+}
+
+#layout{
+    width: 300px;
+    height: 300px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.interruptores{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    margin: 2px;
+    cursor: pointer;
+}
